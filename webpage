@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte Size</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: 'Reenie Beanie', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://img.freepik.com/free-photo/leopard-pattern-fur-texture_23-2150404484.jpg?t=st=1735846842~exp=1735850442~hmac=02ecf1dfa3777fa0efabc08532453a44fde6827fbe0521f5a21ded135ee052be&w=826') no-repeat center center fixed;
+            background-size: cover;
+            color: whitesmoke;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(45deg, #d91616, #bf1313);
+            color: whitesmoke;
+            text-align: center;
+            padding: 20px;
+            text-shadow: 1px 1px 5px #d70040; /* Shadow for depth */
+            font-family: 'Jacquard 12', sans-serif;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .post {
+            background: black;
+            border: 2px solid #bf1313;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .post h2 {
+            color: whitesmoke;
+            margin-bottom: 10px;
+        }
+        .post p {
+            line-height: 1.6;
+            color: whitesmoke;
+        }
+        .post a {
+            color: whitesmoke;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .post a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: #d91616;
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #d91616;
+            color: whitesmoke;
+            border-radius: 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #d70040;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Byte Size</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="post">
+            <h2>Welcome to the Blog!</h2>
+            <p>Hey there! This is the place where all the girly fun happens. From [redacted] we've got it all! Stay tuned for more updates.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="post">
+            <h2>DIY Ideas</h2>
+            <p>Get crafty with these amazing DIY projects that are perfect for adding a personal touch to your space.</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Blog | All Things Tech and Education</p>
+    </footer>
+</body>
+</html>
